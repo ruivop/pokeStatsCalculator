@@ -1,2 +1,4 @@
-# pokeStatsCalculator
-IV, EV, and Stats calculator (for core games) app for Android and iOS
+# IV, EV and Stats Calculator
+IV, EV, and Stats calculator (for core games) app for Android and iOS.
+
+To add a new translation edit "intl_<your language>.arb" in the translations folder. Then, do a pull request or create an issue.

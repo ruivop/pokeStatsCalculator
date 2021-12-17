@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IV, EV and Stats Calculator</title>
+    <style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /*san serif*/
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        /*mainColumn is a column*/
+        .mainColumn {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*appImagesRow is a row of images*/
+        .appImagesRow {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        /*the images are 300px of width*/
+        .appImagesRow img {
+            width: 300px;
+            margin-right: 20px;
+        }
+
+        /*center h1 and h2*/
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        /*take the margin on the p*/
+        ul,
+        p {
+            margin: 0px;
+        }
+
+        .description {
+            margin-left: 20px;
+        }
+
+        .downloadRow {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainColumn">
+        <h1>IV, EV and Stats Calculator</h1>
+        <h2>For core games</h2>
+        <div class="appImagesRow">
+            <img src="images/print1.png" alt="Discover IV, EV or Stats">
+            <img src="images/print2.png" alt="Calculate EV, IV or Stats">
+            <img src="images/print3.png" alt="Diagnostics on error">
+            <img src="images/print4.png" alt="Select Species up to 8th Gen">
+            <img src="images/print5.png" alt="Select Nature">
+            <img src="images/print6.png" alt="Check Stats by IV, EV and Level">
+        </div>
+        <h2>Description</h2>
+        <div class="description">
+            <p>
+                This app is a calculator for the stats on the Pokemon core games on the consoles.
+            </p>
+            <p>
+                Calculate the IV, EV and Stats of a Pokemon. It supports up to 8th Gen. Pokemon.
+            </p>
+            <br>
+            <p>
+                You have to select the Pokemon, the Nature and the Level. Then:
+            </p>
+            <ul>
+                <li>
+                    The IVs are calculated by the Pokemon's Stats and the EVs.
+                </li>
+                <li>
+                    The EVs are calculated by the Pokemon's Stats and the IVs.
+                </li>
+                <li>
+                    The Stats are calculated by the Pokemon's IVs and EVs.
+                </li>
+            </ul>
+            <br>
+            <p>Select and evolve Pokemons in an informed and confident way.</p>
+        </div>
+        <div class="downloadRow">
+            <img src="./images/google-play-badge.png" alt="download on google play store" width="200">
+        </div>
+        <div class="downloadRow">
+            <img src="./images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="download on app store" width="180">
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div></div>
+</body>
+
+</html>
